@@ -1,7 +1,7 @@
 # How `Pick` and `Omit` Keep TypeScript Code DRY
 
 ## Introduction
-In the large application, there is  a lot of interface that represents data from a database or an API.However, different parts of our feacture  usually only need a small portion of that data.thats why instead of writing new interfaces from starts to ends leads to code duplication thats why TypeScript gives us two powerful tool such as  Pick and Omit. These utility types help us follow the DRY (Don't Repeat Yourself).it helps by creating specialized "slices" of existing interfaces.
+In the large application, there is a lot of interface that represents data from a database or an API.However, different parts of our feacture  usually only need a small portion of that data.thats why instead of writing new interfaces from starts to ends leads to code duplication thats why TypeScript gives us two powerful tool such as  Pick and Omit. These utility types help us follow the DRY (Don't Repeat Yourself).it helps by creating specialized "slices" of existing interfaces.
 
 ### Body
 
