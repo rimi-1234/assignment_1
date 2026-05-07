@@ -17,20 +17,17 @@ This repository contains the completed assignment files for the TypeScript and O
 
 ## How to Run
 
+
+```bash
+#firstly Install it once:
+npm install -g tsx
+```
 If you want to compile and run the assignment code, use one of these commands:
 
 ```bash
 # compile the TypeScript file
-npx tsc solutions.ts
+tsx watch solutions.ts
 
-# run the generated JavaScript file
-node solutions.js
-```
-
-If you prefer to run TypeScript directly, use:
-
-```bash
-npx ts-node solutions.ts
 ```
 
 ## Problem Summary
